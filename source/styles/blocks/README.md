@@ -1,7 +1,6 @@
 # Папка для стилей БЭМ-блоков
 
 _header.scss_
-_header.scss_
 
 ```css
 .header {}
