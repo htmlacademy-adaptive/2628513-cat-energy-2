@@ -1,7 +1,42 @@
 /* GLOBAL */
 @import "./common/variables.scss";
-@import "./common/global.scss";
+@import "./common/mixins.scss";
 @import "./common/fonts.scss";
+@import "./common/global.scss";
 
 /* BLOCKS */
-@import "./blocks/header.scss";
+@import "./blocks/page.scss";
+
+
+//header
+@import "./blocks/main.scss";
+@import "./blocks/main-header.scss";
+@import "./blocks/logo.scss";
+@import "./blocks/main-nav.scss";
+@import "./blocks/site-list.scss";
+
+//index
+@import "./blocks/nutrition.scss";
+@import "./blocks/button.scss";
+@import "./blocks/programs.scss";
+@import "./blocks/program.scss";
+@import "./blocks/advantages.scss";
+@import "./blocks/stats.scss";
+@import "./blocks/item-stats.scss";
+@import "./blocks/slider-stats.scss";
+@import "./blocks/button-slider.scss";
+@import "./blocks/location.scss";
+
+//catalog
+@import "./blocks/catalog.scss";
+@import "./blocks/card.scss";
+@import "./blocks/additional-products.scss";
+@import "./blocks/additional.scss";
+@import "./blocks/banner.scss";
+@import "./blocks/subscribe.scss";
+@import "./blocks/form.scss";
+
+//footer
+@import "./blocks/main-footer.scss";
+@import "./blocks/social.scss";
+@import "./blocks/logo-company.scss";

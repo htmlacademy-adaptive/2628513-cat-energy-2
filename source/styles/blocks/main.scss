@@ -1,0 +1,43 @@
+.main__stats {
+  background-color: $bg-dark;
+}
+
+@media (min-width: $view-port-tablet) and (max-width: ($view-port-desktop - 1)) {
+  .main__nutrition {
+    width: 100%;
+    min-height: 837px;
+  }
+
+  .main__stats {
+    background: linear-gradient($bg-basis 57.26%, $bg-dark 42.73%);
+    height: 100%;
+    background-position: right top;
+  }
+}
+
+@media (min-width: $view-port-desktop) {
+  .main__nutrition {
+    width: 100%;
+  }
+
+  .main__location {
+    height: 400px;
+    width: 100%;
+  }
+
+  .main__stats {
+    padding-top: 29px;
+    background: linear-gradient(180deg, $bg-basis 26.32%, $bg-dark 26.32% 76.68%, $bg-dark 76.68%);
+    background-position: right top;
+  }
+
+  .main__programs {
+    background-color: $bg-basis;
+    width: 100%;
+  }
+
+  .main__advantages {
+    background-color: $bg-basis;
+    width: 100%;
+  }
+}
