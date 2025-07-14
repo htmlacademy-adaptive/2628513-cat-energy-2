@@ -84,6 +84,7 @@
   justify-content: center;
   align-items: start;
   min-height: 40px;
+  margin-top: 13px;
 }
 
 .card__link-heading--header {
@@ -106,10 +107,10 @@
   line-height: 16px;
   padding-top: 9px;
   min-height: 16px;
-  margin-bottom: 23px;
+  margin-bottom: 19px;
 }
 
-.card--to--all {
+.card--to-all {
   display: block;
   text-align: center;
   background-image: url("../../icons/stack.svg#plus");
@@ -246,7 +247,7 @@
     padding-top: 1px;
   }
 
-  .card--to--all {
+  .card--to-all {
     position: relative;
     top: 82px;
     width: 100%;
@@ -361,7 +362,7 @@
     min-height: 40px;
     margin-bottom: 40px;
     align-content: center;
-    max-width: 169px;
+    width: 169px;
   }
 
   .card__link-heading--header {
@@ -390,7 +391,7 @@
     padding-top: 0;
   }
 
-  .card--to--all {
+  .card--to-all {
     position: relative;
     top: 82px;
     width: 100%;
@@ -400,7 +401,7 @@
     background-position: center 50px;
   }
 
-  .card--to--all::after {
+  .card--to-all::after {
     display: none;
   }
 }

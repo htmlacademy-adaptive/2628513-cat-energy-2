@@ -5,6 +5,8 @@
 }
 
 .slider-stats__button {
+  width: 4px;
+  height: 256px;
   left: 50%;
   transform: translateX(-50%);
   grid-column: 2 / 4;

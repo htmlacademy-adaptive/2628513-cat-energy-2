@@ -13,10 +13,14 @@
   z-index: 2;
   background-color: $bg-basis;
 
-  &:hover,
-  &:active {
+  &:not(:disabled):hover,
+  &:not(:disabled):active {
     opacity: 0.6;
   }
+}
+
+.main-nav__toggle:disabled {
+  cursor: default;
 }
 
 .main-nav--opened .main-nav__list {

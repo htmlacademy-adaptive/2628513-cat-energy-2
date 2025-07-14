@@ -15,32 +15,31 @@
   background-color: $bg-light;
 }
 
+.logo-company:hover::after,
+.logo-company:focus::after {
+  background-color: $bg-button;
+}
+
+.logo-company__text:active,
+.logo-company:active,
+.logo-company:active::after {
+  opacity: 0.3;
+}
+
 .logo-company__text {
   @include font-paragraph;
   font-size: 16px;
   line-height: 20px;
 }
 
-.logo-company:hover::after,
-.logo-company:focus::after {
-  background-color: #68b738;
-}
-
-.logo-company:active,
-.logo-company:active::after {
-  opacity: 0.3;
-}
-
 @media (min-width: $view-port-tablet) and (max-width: ($view-port-desktop - 1)) {
   .logo-company {
     gap: 23px;
-    width: 168px;
   }
 }
 
 @media (min-width: $view-port-desktop) {
   .logo-company {
     gap: 23px;
-    width: 168px;
   }
 }

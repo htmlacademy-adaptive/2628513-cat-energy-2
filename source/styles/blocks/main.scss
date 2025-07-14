@@ -2,6 +2,16 @@
   background-color: $bg-dark;
 }
 
+.main__catalog {
+  margin: 0 auto;
+  width: $view-port-mobile;
+}
+
+.main__subscribe {
+  margin: 0 auto;
+  width: $view-port-mobile;
+}
+
 @media (min-width: $view-port-tablet) and (max-width: ($view-port-desktop - 1)) {
   .main__nutrition {
     width: 100%;
@@ -12,6 +22,16 @@
     background: linear-gradient($bg-basis 57.26%, $bg-dark 42.73%);
     height: 100%;
     background-position: right top;
+  }
+
+  .main__catalog {
+    width: $view-port-tablet;
+  }
+
+  .main__subscribe {
+    width: $view-port-tablet;
+    padding-top: 80px;
+    padding-bottom: 80px;
   }
 }
 
@@ -39,5 +59,14 @@
   .main__advantages {
     background-color: $bg-basis;
     width: 100%;
+  }
+
+  .main__catalog {
+    width: $view-port-desktop;
+  }
+
+  .main__subscribe {
+    padding-bottom: 104px;
+    width: $view-port-desktop;
   }
 }
