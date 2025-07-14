@@ -1,8 +1,6 @@
 .button-slider {
   position: relative;
   display: block;
-  width: 4px;
-  height: 256px;
   border-radius: 2px;
   background-color: $bg-light;
   border: none;
@@ -39,22 +37,28 @@
   background-color: $bg-light;
 }
 
-.button-slider:hover,
-.button-slider:hover::before {
+.button-slider:not(:disabled):hover,
+.button-slider:not(:disabled):hover::before {
   background-color: $bg-button;
 }
 
-.button-slider:hover::after {
+.button-slider:not(:disabled):hover::after {
   border: 2px solid $bg-button;
 }
 
-.button-slider:active,
-.button-slider:active::before {
-  opacity: 0.6;
+.button-slider:not(:disabled):active,
+.button-slider:not(:disabled):active::before {
+  background-color: #5eaa2f;
 }
 
-.button-slider:active::after {
-  opacity: 0.6;
+.button-slider:not(:disabled):active::after {
+  border: 2px solid #5eaa2f;
+}
+
+.button-slider:disabled:active,
+.button-slider:disabled:active::before,
+.button-slider:disabled:active::after {
+  cursor: default;
 }
 
 @media (min-width: $view-port-tablet) and (max-width: ($view-port-desktop - 1)) {

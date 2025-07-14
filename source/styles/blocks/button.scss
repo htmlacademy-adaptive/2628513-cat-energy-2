@@ -14,22 +14,24 @@
 }
 
 .button:hover {
-  background-color: #5eaa2f;
+  background-color: $bg-button;
 }
 
 .button:active {
+  background-color: #5eaa2f;
   color: rgba(255, 255, 255, 0.3);
 }
 
-.button--action {
+.button__button--action {
   margin-top: -3px;
   color: $color-paragraph;
   background-color: $bg;
 }
 
-.button--action:hover,
-.button--action:active {
+.button__button--action:hover,
+.button__button--action:active {
   background-color: $color-linear;
+  color: #444444;
 }
 
 .button--current {
@@ -40,23 +42,18 @@
   align-content: center;
 }
 
-.button--card-modifier {
-  margin-top: 13px;
-}
-
 @media (min-width: $view-port-tablet) and (max-width: ($view-port-desktop - 1)) {
   .button {
     font-size: 20px;
     line-height: 26px;
   }
 
-  .button--card-modifier {
+  .button__card--modifier {
     font-size: 16px;
     line-height: 20px;
-    width: 200px;
   }
 
-  .button--action {
+  .button__button--action {
     transform: translateY(-81px);
     font-size: 16px;
     line-height: 20px;
@@ -70,16 +67,14 @@
     padding: 5px 20px;
   }
 
-  .button--card-modifier {
+  .button__card--modifier {
     font-size: 16px;
     line-height: 20px;
-    width: 200px;
   }
 
-  .button--action {
+  .button__button--action {
     transform: translateY(-82px);
     font-size: 16px;
     line-height: 20px;
-    width: 169px;
   }
 }

@@ -43,14 +43,14 @@
   padding: 22px 0 24px;
   width: $view-port-mobile;
   text-align: center;
-}
 
-.site-list__navigation-link[aria-current="page"]:hover {
-  opacity: 0.6;
-}
+  &:hover {
+    opacity: 0.3;
+  }
 
-.site-list__navigation-link[aria-current="page"]:focus {
-  opacity: 0.3;
+  &:active {
+    opacity: 0.6;
+  }
 }
 
 @media (min-width: $view-port-tablet) and (max-width: ($view-port-desktop - 1)) {
@@ -105,7 +105,7 @@
     color: $color-basis;
   }
 
-  .site-list__navigation-link--modoifier {
+  .site-list__navigation-link--light {
     color: $color-accent;
   }
 
@@ -114,7 +114,7 @@
     text-underline-offset: 11px;
   }
 
-  .site-list__navigation-link--modoifier[aria-current="page"] {
+  .site-list__navigation-link--light[aria-current="page"] {
     text-decoration: underline 2px solid $bg-basis;
     text-underline-offset: 11px;
   }

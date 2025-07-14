@@ -168,7 +168,6 @@
 
   .location__wrapper--modifier-catalog {
     background-color: $bg-basis;
-    min-height: 100%;
   }
 
   .location__header {
@@ -178,6 +177,7 @@
   }
 
   .location__description {
+    display: flex;
     width: 157px;
     font-size: 16px;
     flex-direction: column;
