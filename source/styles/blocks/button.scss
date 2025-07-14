@@ -22,14 +22,14 @@
   color: rgba(255, 255, 255, 0.3);
 }
 
-.button__button--action {
+.button--action {
   margin-top: -3px;
   color: $color-paragraph;
   background-color: $bg;
 }
 
-.button__button--action:hover,
-.button__button--action:active {
+.button--action:hover,
+.button--action:active {
   background-color: $color-linear;
   color: #444444;
 }
@@ -48,12 +48,12 @@
     line-height: 26px;
   }
 
-  .button__card--modifier {
+  .button--modifier {
     font-size: 16px;
     line-height: 20px;
   }
 
-  .button__button--action {
+  .button--action {
     transform: translateY(-81px);
     font-size: 16px;
     line-height: 20px;
@@ -67,12 +67,12 @@
     padding: 5px 20px;
   }
 
-  .button__card--modifier {
+  .button--modifier {
     font-size: 16px;
     line-height: 20px;
   }
 
-  .button__button--action {
+  .button--action {
     transform: translateY(-82px);
     font-size: 16px;
     line-height: 20px;

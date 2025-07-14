@@ -110,7 +110,7 @@
   margin-bottom: 19px;
 }
 
-.card-to--all {
+.card--to-all {
   display: block;
   text-align: center;
   background-image: url("../../icons/stack.svg#plus");
@@ -247,7 +247,7 @@
     padding-top: 1px;
   }
 
-  .card-to--all {
+  .card--to-all {
     position: relative;
     top: 82px;
     width: 100%;
@@ -391,7 +391,7 @@
     padding-top: 0;
   }
 
-  .card-to--all {
+  .card--to-all {
     position: relative;
     top: 82px;
     width: 100%;
@@ -401,7 +401,7 @@
     background-position: center 50px;
   }
 
-  .card-to--all::after {
+  .card--to-all::after {
     display: none;
   }
 }
