@@ -17,6 +17,14 @@
   align-items: start;
   width: 140px;
   min-height: 107px;
+
+  &:hover {
+    outline: 1px solid $color-linear-block;
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
 }
 
 .card__img {
@@ -31,6 +39,14 @@
   min-height: 43px;
   justify-content: flex-start;
   display: grid;
+
+  &:hover {
+    outline: 1px solid $color-linear-block;
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
 }
 
 .card__heading {

@@ -11,19 +11,8 @@
   transition: background-color 0.2s, color 0.2s, border 0.2s, opacity 0.2s;
 }
 
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  padding: 0;
-  border: 0;
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-
 img {
   max-width: 100%;
   height: auto;
-  // object-fit: contain;
+  object-fit: contain;
 }

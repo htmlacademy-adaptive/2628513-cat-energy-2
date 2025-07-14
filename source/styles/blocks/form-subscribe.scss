@@ -4,7 +4,7 @@
   gap: 16px;
 }
 
-.form-subscribe__field:not(:disabled):user-valid {
+.form-subscribe__field:not(:disabled) {
   @include fonttitle;
   border: 1px solid $color-linear-block;
   padding: 5px 12px;
@@ -51,7 +51,7 @@
     padding-right: 38px;
   }
 
-  .form-subscribe__field {
+  .form-subscribe__field:not(:disabled) {
     padding: 4px 12px;
     width: 376px;
     transform: translateY(1px);
@@ -71,7 +71,7 @@
     gap: 0;
   }
 
-  .form-subscribe__field {
+  .form-subscribe__field:not(:disabled) {
     padding: 4px 12px;
     width: 496px;
     transform: translateY(-1px);
